@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nathan Hale Technology Help Center</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1e293b;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1d4ed8, #0f172a);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1d4ed8;
+    }
+
+    .button {
+      display: inline-block;
+      background: #1d4ed8;
+      color: white;
+      padding: 14px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #2563eb;
+    }
+
+    section {
+      margin-top: 60px;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 30px;
+      margin-top: 60px;
+    }
+
+    .highlight {
+      background: #dbeafe;
+      border-left: 5px solid #2563eb;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Nathan Hale Technology Help Center</h1>
+  <p>
+    Family, student, and staff technology support resources.
+    Find Chromebook help, login resources, troubleshooting guides,
+    and technology request information.
+  </p>
+
+  <a class="button" href="#request">
+    Submit a Tech Request
+  </a>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2>Quick Links</h2>
+
+    <div class="card-grid">
+
+      <div class="card">
+        <h3>Google Classroom</h3>
+        <p>Access assignments and classroom updates.</p>
+        <a class="button" href="#">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>Clever</h3>
+        <p>Student learning apps and school resources.</p>
+        <a class="button" href="#">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>PowerSchool</h3>
+        <p>Grades, attendance, and student information.</p>
+        <a class="button" href="#">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>Chromebook Help</h3>
+        <p>Troubleshooting guides and support resources.</p>
+        <a class="button" href="#troubleshooting">View Help</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="troubleshooting">
+    <h2>Common Chromebook Issues</h2>
+
+    <div class="card-grid">
+
+      <div class="card">
+        <h3>Chromebook Won’t Turn On</h3>
+        <ul>
+          <li>Charge for 15 minutes</li>
+          <li>Hold power for 10 seconds</li>
+          <li>Try another charger</li>
+          <li>Submit a tech request if needed</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Student Can’t Log In</h3>
+        <ul>
+          <li>Check username carefully</li>
+          <li>Turn off Caps Lock</li>
+          <li>Restart Chromebook</li>
+          <li>Contact school tech support</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Wi-Fi Problems</h3>
+        <ul>
+          <li>Restart Chromebook</li>
+          <li>Reconnect to Wi-Fi</li>
+          <li>Restart home router</li>
+          <li>Move closer to router</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Chromebook Expectations</h2>
+
+    <div class="highlight">
+      <ul>
+        <li>Charge devices nightly</li>
+        <li>Handle devices carefully</li>
+        <li>Report damage immediately</li>
+        <li>Use school accounts appropriately</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="request">
+    <h2>Technology Request Form</h2>
+
+    <p>
+      Need help with a Chromebook, charger, password, or other school technology issue?
+    </p>
+
+    <a class="button" href="#">
+      Open Tech Request Form
+    </a>
+  </section>
+
+</div>
+
+<footer>
+  Nathan Hale Technology Help Center<br/>
+  Replace with school contact information
+</footer>
+
+</body>
+</html>
